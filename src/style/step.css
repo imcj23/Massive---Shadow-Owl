@@ -1,19 +1,31 @@
-.step {
-  display: flex-colom;
+.card-step {
+  text-align: center;
+  align-items: center;
   border-radius: 29px;
   background-color: #f8b179;
   color: #fff;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  box-shadow: 0 14px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 14px 8px #00000033;
+  margin-bottom: 100px;
 }
-.step img {
-  width: 10vw;
-  margin-left: 100px;
-  margin-right: 100px;
+.card-step img{
+  margin-left:25% ;
+  margin-top: 20px;
+}
+
+
+.text-step{
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
+  color: #fff;
+}
+.text-step h1{
+  text-align: right;
+  font-size: 64px;
+  font-weight: bold;
+}
+.text-step p{
+  text-align: left;
+  font-size: 36px;
+  font-weight: bold;
 }

@@ -1,0 +1,93 @@
+.about-section {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.caption {
+  padding-left: 450px;
+  padding-right: 450px;
+  margin-top: 90px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.container-about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  min-height: 30vh;
+  margin: 70px auto;
+  color: #fff;
+}
+.container-about h2 {
+  text-align: left;
+  font-size: 64px;
+  font-weight: 700;
+}
+.container-about p {
+  font-size: 20px;
+  padding-right: 100px;
+  margin-right: 20px;
+}
+.container-about .image-1 {
+  width: 600px;
+  float: right;
+  margin-left: 150px;
+}
+.container-about .image-2 {
+    width: 600px;
+    float: left;
+    margin-right: 150px;
+  }
+.bg-round-2 {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background: linear-gradient(180deg, var(--bgdark), var(--lightblue));
+  z-index: -1;
+  border-radius: 50%;
+}
+.text-box {
+    margin-left: 100px;
+}
+.text-box h2 {
+  text-align: center;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.text-box p {
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 20px;
+  padding-right: 20px;
+  text-align: justify;
+}
+
+.text-box ol {
+  list-style-type: decimal;
+  padding-left: 50px;
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.text-box-2 {
+  display: flex;
+}
+
+.text-box-2 p {
+  font-size: 33px;
+  font-weight: 600;
+  text-align: justify;
+  margin-left: 50px;
+  width: 60%;
+}
+.first-content {
+  width: 100%;
+  background-image: url("../assets/image/aboutus.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 208px;
+  margin-bottom: 50px;
+}

@@ -1,5 +1,13 @@
-.laporkan img {
+/* .laporkan img {
     display: flex;
   background: linear-gradient(to bottom, #363E6C, #82859A);
   border-radius: 100%;
+} */
+.btn-laporkan {
+  background-color: #f9b17a;
+}
+.btn-laporkan:hover {
+  background-color: #fff;
+  color: #f9b17a;
+  transition: 0.4s;
 }

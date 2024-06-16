@@ -1,0 +1,14 @@
+.btn-orange{
+    background-color: rgb(245, 148, 112);
+    font-weight: bold;
+}
+.btn-orange:hover{
+    background-color: #fff;
+    color: rgb(245, 148, 112);
+    transition: 0.3s;
+}
+.content {
+    background-color: #40466A;
+    width: 100%;   
+    height: 100%;
+}

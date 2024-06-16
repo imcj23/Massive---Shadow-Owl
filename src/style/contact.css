@@ -1,0 +1,40 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.info-box {
+  background-color: #2d3250;
+}
+
+.icon-container {
+  background-color: #f8b179;
+  border-radius: 50%;
+  color: #fff;
+}
+
+.first-content {
+  width: 100%;
+  background-image: url("../assets/image/Rectangle 222.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 200px;
+}
+
+/* Menambahkan spasi di antara kedua konten */
+.second-content {
+  margin-top: 20px;
+}
+.text-padding {
+  padding-bottom: 100px;
+}
+.info-padding {
+  padding-top: 55px;
+}
+.btn-orange {
+  background-color: #f8b179;
+}
+.btn-orange:hover {
+  color: #f8b179;
+  background-color: #fff;
+}

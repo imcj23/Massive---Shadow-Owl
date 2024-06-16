@@ -1,14 +1,13 @@
-// import React from 'react'
 import Navbar from "../component/navbar";
-import Laporkan from "../component/laporkan";
+import Laporkan from "../component/form";
 import Footer from "../component/footer";
 
-export default function Aduan() {
+export default function Form() {
   return (
-    <div>
+    <>
       <Navbar />
       <Laporkan />
       <Footer />
-    </div>
+    </>
   );
 }
