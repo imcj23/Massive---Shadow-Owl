@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import Logo from "../assets/image/Critizn.png";
+import Logo from "../assets/image/critizn2.png";
 import '../style/navbar.css'
 
 export default function Navbar() {
@@ -10,10 +10,7 @@ export default function Navbar() {
   const handleToggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
-
-  // const handleCloseMenu = () => {
-  //   setIsMenuOpen(false);
-  // };
+  
   return (
     <nav className="nav">
       <div className="nav-logo">
@@ -22,25 +19,16 @@ export default function Navbar() {
         </a>
       </div>
       <ul className={`nav-menu ${isMenuOpen ? 'active' : ''}`}>
-        <li>
-          <a href="/about-us">Tentang Kami</a>
-        </li>
-        <li>
-          <a href="/news">Berita</a>
-        </li>
-        <li>
-          <a href="/contact">Kontak</a>
-        </li>
-        {/* <li className="close-button">
-          <button onClick={handleCloseMenu}>Close</button>
-        </li> */}
+        <li><a href="/tentang kami">Tentang Kami</a></li>
+        <li><a href="/news">Berita</a></li>
+        <li><a href="/contact">Kontak</a></li>
       </ul>
-      <button
-        onClick={() => navigate("/Aduan")}
-        className=""
-      >
-        Aduan
-      </button>
+
+      <div className="button">
+        <button onClick={() => navigate("/Aduan")}className="">Aduan</button>
+      </div>
+      
+      
       <div className="nav-toggle" onClick={handleToggleMenu}>
         <span className="bar"></span>
         <span className="bar"></span>

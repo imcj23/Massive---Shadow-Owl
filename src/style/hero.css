@@ -1,12 +1,25 @@
-section {
-  background-color: #676f9d;
+/* section {
   display: flex;
   justify-content: space-between;
-  margin-top: 100px;
+  margin-top: 50px;
   margin-left: 100px;
   margin-right: 100px;
   color: #fff;
+} */
+.image{
+  display: grid;
+  background: linear-gradient(to bottom, #363E6C, #82859A);
+  border-radius: 100%;
 }
-.container{
-  
+.image img {
+  display: flex;
+  border-radius: 100%;
+}
+
+/* responsive styling */
+@media (max-widht:750px){
+  .image img{
+    grid-area: 1/1/2/2;
+    margin-top: 100px;
+  }
 }
