@@ -15,10 +15,10 @@ export default function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Login/>} />
+        <Route path="/" element={<Home/>} />
         <Route path="/Register" element={<Register/>} />
         <Route path="/Forget" element={<Forget/>} />
-        <Route path="/Home" element={<Home/>} />
+        <Route path="/Login" element={<Login/>} />
         <Route path="/Aduan" element={<Aduan/>} />
         <Route path="/Form" element={<Form/>} />
         <Route path="/Contact-us" element={<Contact_us/>} />
